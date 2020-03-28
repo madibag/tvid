@@ -1,0 +1,22 @@
+commands:
+  start: Welcome! Start by having a look at /help 😉
+  help: |
+    I’m a 🤖 that allows you to save TikTok videos locally.
+
+    In order to get a video, just share it's URL to this chat and I'll send the file.
+
+    Note that there is a *10 requests limit* every 5 minutes.
+
+    I was made at thundersquared.com ⚡️ and I’m open source❤️!
+    github.com/thundersquared/tikvidbot
+
+  lang:
+    info: Your current language is set to ${language}!
+    changed: Awesome! You've changed the language to ${language}!
+rate:
+  limit: Rate limit exceeded
+  lookup: "\n\nLookup #${lookups}: <strong>${domain}</strong>"
+errors:
+  url: I can download only TikTok videos and this doesn't look like a valid URL.
+  http: Couldn't fetch shared URL. Please check if it's available and try again later.
+  stream: No valid streams were found. Please try again later!
